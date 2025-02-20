@@ -2,55 +2,48 @@ body{
     margin: 0;
 }
 
-p{
-    font-size: 5rem; 
-
-}
-
-.card1{
+.section{
     width: 100%;
-    padding: 20px; 
-    background-color: red;
-    font-size: 1.4rem;
-    color: white;
-
-    position: sticky;
-    top: 0;
-}
-
-.card2{
-    width: 100%;
-    padding: 20px; 
-    background-color: blue;
-    font-size: 1.4rem;
-    color: white;
-
-    position: sticky;
-    top: 0;
-}
-
-.card3{
-    width: 100%;
-    padding: 20px; 
-    background-color: gray;
-    font-size: 1.4rem;
-    color: white;
-
-    position: sticky;
-    top: 0;
-}
-
-.card4{
-    width: 100%;
-    padding: 20px; 
-    background-color: darkred;
-    font-size: 1.4rem;
-    color: white;
-
-    position: sticky;
-    top: 0;
-}
-
-.page{
     height: 100vh;
+    position: relative;
+}
+
+.text{
+    font-size: 4rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: white;
+    padding: 16px;
+    font-size: 1.2rem;
+}
+
+.title-box {
+    position: sticky;
+    top: 0%;
+}
+
+#section-1 .title-box{
+    background-color: red ;
+}
+
+#section-2 .title-box{
+    background-color: blue ;
+}
+
+#section-3 .title-box{
+    background-color: gray ;
+}
+
+#section-4 .title-box{
+    background-color: darkred ;
+}
+
+p{
+    margin: 0;
 }
